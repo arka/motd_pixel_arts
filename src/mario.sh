@@ -16,17 +16,17 @@ declare -A color_map=( \
 mario=(\
   b  b  b  b  b  r  r  r  r  r  b  b  b  b  b  b \
   b  b  b  b  r  r  r  r  r  r  r  r  r  b  b  b \
-  b  b  b  b lb lb lb  y  y lb  y  b  b  b  b  b \
-  b  b  b lb  y lb  y  y  y lb  y  y  y  b  b  b \
-  b  b  b lb  y lb lb  y  y  y lb  y  y  y  b  b \
-  b  b  b  b lb  y  y  y  y lb lb lb lb  b  b  b \
-  b  b  b  b  b  y  y  y  y  y  y  b  b  b  b  b \
+  b  b  b  b lb lb lb lw lw lb lw  b  b  b  b  b \
+  b  b  b lb lw lb lw lw lw lb lw lw lw  b  b  b \
+  b  b  b lb lw lb lb lw lw lw lb lw lw lw  b  b \
+  b  b  b  b lb lw lw lw lw lb lb lb lb  b  b  b \
+  b  b  b  b  b lw lw lw lw lw lw  b  b  b  b  b \
   b  b  b  b  r  r  u  r  r  u  r  r  b  b  b  b \
   b  b  b  r  r  r  u  r  r  u  r  r  r  b  b  b \
   b  b  r  r  r  r  u  r  r  u  r  r  r  r  b  b \
-  b  b  y  y  r  u ly  u  u ly  u  r  y  y  b  b \
-  b  b  y  y  y  u  u  u  u  u  u  y  y  y  b  b \
-  b  b  y  y  u  u  u  u  u  u  u  u  y  y  b  b \
+  b  b lw lw  r  u ly  u  u ly  u  r lw lw  b  b \
+  b  b lw lw lw  u  u  u  u  u  u lw lw lw  b  b \
+  b  b lw lw  u  u  u  u  u  u  u  u lw lw  b  b \
   b  b  b  b  u  u  u  b  b  u  u  u  b  b  b  b \
   b  b  b lb lb lb  b  b  b  b lb lb lb  b  b  b \
   b  b lb lb lb lb  b  b  b  b lb lb lb lb  b  b \
