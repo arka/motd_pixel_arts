@@ -42,11 +42,14 @@ mushroom=( \
   n  n  n lb lw lw lw lw lw lw lw lw lb  n  n  n \
   n  n  n  n lb lb lb lb lb lb lb lb  n  n  n  n \
 );
+
 column_size=16
 
-for (( i = 0 ; i < ${#mushroom[@]} ; i++ ))
+matrix=(${mushroom[@]})
+
+for (( i = 0 ; i < ${#matrix[@]} ; i++ ))
 do
-  printf ${color_table[${color_map[${mushroom[$i]}]}]};
+  printf ${color_table[${color_map[${matrix[$i]}]}]};
   printf "  "
   if (( ${i} > 0 )); then
     if ! (( (${i} + 1) % ${column_size} )); then
