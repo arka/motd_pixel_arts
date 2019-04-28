@@ -14,22 +14,22 @@ declare -A color_map=( \
   ["n"]=16);
 
 mario=(\
-  b  b  b  b  b  r  r  r  r  r  b  b  b  b  b  b \
-  b  b  b  b  r  r  r  r  r  r  r  r  r  b  b  b \
-  b  b  b  b lb lb lb lw lw lb lw  b  b  b  b  b \
-  b  b  b lb lw lb lw lw lw lb lw lw lw  b  b  b \
-  b  b  b lb lw lb lb lw lw lw lb lw lw lw  b  b \
-  b  b  b  b lb lw lw lw lw lb lb lb lb  b  b  b \
-  b  b  b  b  b lw lw lw lw lw lw  b  b  b  b  b \
-  b  b  b  b  r  r  u  r  r  u  r  r  b  b  b  b \
-  b  b  b  r  r  r  u  r  r  u  r  r  r  b  b  b \
-  b  b  r  r  r  r  u  r  r  u  r  r  r  r  b  b \
-  b  b lw lw  r  u ly  u  u ly  u  r lw lw  b  b \
-  b  b lw lw lw  u  u  u  u  u  u lw lw lw  b  b \
-  b  b lw lw  u  u  u  u  u  u  u  u lw lw  b  b \
-  b  b  b  b  u  u  u  b  b  u  u  u  b  b  b  b \
-  b  b  b lb lb lb  b  b  b  b lb lb lb  b  b  b \
-  b  b lb lb lb lb  b  b  b  b lb lb lb lb  b  b \
+  n  n  n  n  n  r  r  r  r  r  n  n  n  n  n  n \
+  n  n  n  n  r  r  r  r  r  r  r  r  r  n  n  n \
+  n  n  n  n lb lb lb lw lw lb lw  n  n  n  n  n \
+  n  n  n lb lw lb lw lw lw lb lw lw lw  n  n  n \
+  n  n  n lb lw lb lb lw lw lw lb lw lw lw  n  n \
+  n  n  n  n lb lw lw lw lw lb lb lb lb  n  n  n \
+  n  n  n  n  n lw lw lw lw lw lw  n  n  n  n  n \
+  n  n  n  n  r  r  u  r  r  u  r  r  n  n  n  n \
+  n  n  n  r  r  r  u  r  r  u  r  r  r  n  n  n \
+  n  n  r  r  r  r  u  r  r  u  r  r  r  r  n  n \
+  n  n lw lw  r  u ly  u  u ly  u  r lw lw  n  n \
+  n  n lw lw lw  u  u  u  u  u  u lw lw lw  n  n \
+  n  n lw lw  u  u  u  u  u  u  u  u lw lw  n  n \
+  n  n  n  n  u  u  u  n  n  u  u  u  n  n  n  n \
+  n  n  n lb lb lb  n  n  n  n lb lb lb  n  n  n \
+  n  n lb lb lb lb  n  n  n  n lb lb lb lb  n  n \
 );
 
 column_size=16
